@@ -1,1 +1,17 @@
-theme: jekyll-theme-midnight
+# Site settings
+title: Morwicke 2019
+email: info@morwicke.com
+url: https://morwicke.com/
+description: "Welcome to our wedding homepage. We'll post useful information here."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: Your Website
+
+# Build settings
+markdown: kramdown
+permalink: pretty
