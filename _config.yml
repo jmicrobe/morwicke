@@ -2,7 +2,7 @@
 title: Morwicke 2019
 email: info@morwicke.com
 url: https://morwicke.com/
-description: "Welcome to our wedding homepage. We'll post useful information here."
+description: ""
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -10,7 +10,7 @@ color:
   links: '#219ab3'
 
 # Footer settings
-footer: Your Website
+footer: Morwicke
 
 # Build settings
 markdown: kramdown
