@@ -377,8 +377,8 @@ img::-moz-selection {
     background: 0 0;
 }
 img.section {
-  height: 50%;
-  width: 50%;
+  height: 30%;
+  width: 30%;
 }
 
 body {
