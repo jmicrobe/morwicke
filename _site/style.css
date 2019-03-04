@@ -255,18 +255,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
-}
-
-.location-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(/img/thornewood.jpg) no-repeat center center scroll;
-    background-color: #000000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    display: flex;
 }
 
 #map {
