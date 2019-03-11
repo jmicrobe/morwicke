@@ -7,7 +7,7 @@ description: "October 19th, 2019"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
-  links: '#219ab3'
+  links: '#cb5656'
 
 # Footer settings
 footer: Morwicke
