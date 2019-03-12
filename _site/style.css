@@ -35,7 +35,7 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {
+p, .location-overview a {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
@@ -50,7 +50,7 @@ p {
 }
 
 a {
-    color: #883638;
+    color: #cb5656;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -271,7 +271,7 @@ a:focus {
 
     #map {
         width: 100%;
-        heigh: 200px;
+        height: 200px;
         margin-top: 100px;
     }
 }
@@ -299,17 +299,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #883638;
-    color: #883638;
+    border: 1px solid #cb5656;
+    color: #cb5656;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #883638;
+    border: 1px solid #cb5656;
     outline: 0;
     color: #000000;
-    background-color: #883638;
+    background-color: #cb5656;
 }
 
 
@@ -347,4 +347,12 @@ img.section {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.location-info {
+    display: flex;
+}
+
+.location-overview {
+    padding: 0 5px;
 }
