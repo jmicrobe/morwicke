@@ -30,7 +30,7 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {
+p, .location-overview a {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
@@ -266,7 +266,7 @@ a:focus {
 
     #map {
         width: 100%;
-        heigh: 200px;
+        height: 200px;
         margin-top: 100px;
     }
 }
@@ -342,4 +342,12 @@ img.section {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.location-info {
+    display: flex;
+}
+
+.location-overview {
+    padding: 0 5px;
 }
