@@ -18,7 +18,6 @@ html {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -30,16 +29,19 @@ h6 {
     letter-spacing: 1px;
 }
 
-p, .location-overview a {
-    margin: 0 0 25px;
-    font-size: 15px;
-    line-height: 1.5;
+h2 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: ,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #cb5656;
+  font-size: 50px;
 }
-
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 1.6;
     }
 }
@@ -79,7 +81,7 @@ a:focus {
 
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
-    font-size: 15px;
+    font-size: 18px;
     color: #fff;
 }
 
@@ -172,6 +174,28 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
+}
+.location-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/thornewood-bg.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.registry-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(/img/rabbit-bg.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .btn-circle {
@@ -272,7 +296,7 @@ a:focus {
 }
 .google-maps {
     position: relative;
-    padding-bottom: 75%; // This is the aspect ratio
+    padding-bottom: 30%; // This is the aspect ratio
     height: 0;
     overflow: hidden;
 }
@@ -281,7 +305,7 @@ a:focus {
     top: 0;
     left: 0;
     width: 100% !important;
-    height: 30% !important;
+    height: 100% !important;
 }
 
 .btn {
@@ -336,24 +360,9 @@ img::-moz-selection {
     background: 0 0;
 }
 img.section {
-  height: 30%;
-  width: 30%;
+  width: 50%;
 }
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
-
-.location-info {
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    align-content: center;
-    vertical-align: middle;
-}
-
-.location-overview {
-    padding: 0 10px;
-    margin: 10px;
-    align-items: center;
 }
